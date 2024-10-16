@@ -14,9 +14,13 @@ To show the data handling skills such as reading files, cleaning, manipulation, 
 4. Data Cleaning
 5. Feature Engineering
 6. Data Visualization
-7. Conclusion
+7. Usage
+8. Conclusion
 
-1. Project Setup
+
+
+
+# Project Setup
   To run this project on your local machine, ensure you have the following libraries installed:
 
    pandas
@@ -28,10 +32,11 @@ To show the data handling skills such as reading files, cleaning, manipulation, 
    You can install the required libraries using pip:
        pip install pandas numpy matplotlib seaborn scikit-learn
 
-2. Data Handling and Error Management
- In this project, the diabetes.csv file is loaded using pandas. If the file if loaded successful the message will print 'File Successfully loaded'. To handle potential file-related issues (e.g., the file not being found), error handling is implemented using the in-built - 'Try and Except' Error handling method. 
+# Data Handling and Error Management
+
+In this project, the diabetes.csv file is loaded using pandas. If the file if loaded successful the message will print 'File Successfully loaded'. To handle potential file-related issues (e.g., the file not being found), error handling is implemented using the in-built - 'Try and Except' Error handling method. 
  
-3. Exploratory Data Analysis (EDA)
+# Exploratory Data Analysis (EDA)
  
 In this project, time is taken to understand the data itself through the following:
 
@@ -39,6 +44,18 @@ In this project, time is taken to understand the data itself through the followi
 (ii) Descriptive Statistics: Calculating key summary statistics (mean, median, standard deviation, etc.).
 (iii) Distribution of Target Variable: Visualizing the distribution of the diabetes outcome using pie-chart plot.
 
-4. Data Cleaning
-Data used from Kaggle, after exploration it is seen as noisy, need for removing unneccessary data befor analysing or modelling. I have used functions for clarity, usability and in the following :
-(i) 
+# Data Cleaning
+
+Data used from Kaggle, after exploration process it is seen as noisy,and the need for removing, renaming, and dropping some unneccessary data before analysing further or use it for modelling in machine learning projects. I have used functions for clarity, code re-usability and scalability in the following :
+
+(i) Handling Missing Values: Missing values can affect the quality of analysis, and even affect the quality of a model. All missing values in this instance are handled and checked.
+(ii) Handling Duplicates: The data was checked for any duplicates so that data will not give any bias outcome.
+
+# Feature Engeneering
+
+# Usage
+
+Load Data: Use pd.read_csv() to load the dataset.
+Clean Data: Use the handle_missing_values() function to address missing data.
+Feature Engineering: Categorize columns such as Patient_Age using categorize_age().
+Visualize Data: Create histograms or pie charts for insights.
