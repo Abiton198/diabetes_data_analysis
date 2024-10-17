@@ -102,15 +102,9 @@ Contributions are welcome and greatly appreciated! If you would like to contribu
 a) Fork the Repository: Start by forking this repository to your GitHub account.
 
 b) Clone the Repository: Once forked, clone the repository to your local machine using the following command:
-
-   bash
-   Copy code
    git clone https://github.com/your-username/diabetes-analysis-project.git
 
 c) Create a Branch: Create a new branch for your changes:
-
-   bash
-   Copy code
    git checkout -b feature-branch-name
 
 d) Make Your Changes: Implement your changes, whether it's bug fixes, new features, code optimizations, or    documentation improvements.
@@ -118,15 +112,9 @@ d) Make Your Changes: Implement your changes, whether it's bug fixes, new featur
 e) Test Your Changes: Ensure your changes work as expected. If applicable, add tests to validate the modifications.
 
 Commit Your Changes: Commit your changes with a meaningful message:
-
-   bash
-   Copy code
    git commit -m "Add feature or fix a bug"
 
 f) Push to Your Fork: Push the changes to your forked repository:
-
-   bash
-   Copy code
    git push origin feature-branch-name
 
 g) Submit a Pull Request: Open a pull request to the main repository, explaining the changes and improvements made.
