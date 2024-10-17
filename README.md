@@ -122,3 +122,5 @@ g) Submit a Pull Request: Open a pull request to the main repository, explaining
 
 # Conclusion
 In the future, this dataset can be used to train machine learning models like decision trees or logistic regression for diabetes prediction. The data preparation steps undertaken here ensure that the dataset is clean and feature-rich, paving the way for accurate and meaningful model training.
+
+Thank you for Review my README!
